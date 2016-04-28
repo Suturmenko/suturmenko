@@ -1,0 +1,85 @@
+@import "compass/css3"
+=background ($img:file, $type:png, $repeat:no-repeat, $x:0, $y:0)
+  background-image: url(../img/#{$img}.#{$type})
+  background-repeat: #{$repeat}
+  background-position: #{$x}px #{$y}px
+
+.wrapper
+  header
+    .navbar-collapse
+      >.navbar-right
+        >li
+          >a
+
+            margin-right: 5px
+  .main
+    >#formMessage
+      position: fixed
+      right: 0
+      padding: 70px 5px 5px 5px
+      background-color: #f7f7f7
+      width: 100%
+      max-width: 400px
+      z-index: 999
+      >button
+        margin: 5px
+      & [required]
+        width: 100%
+        border: 1px solid lightskyblue
+        +border-radius(10px)
+    .bxslider
+      padding: 50px 0 0 0
+      >li
+        width: 100%
+        img
+          max-width: 1170px
+          width: 100%
+          padding: 0
+          margin: 0
+    .education
+      >ul
+        float: left
+      >img
+        float: right
+    .skills
+      background-color: #28afb7
+      .skills_list
+        >li
+          cursor: pointer
+        li
+          font-size: 20px
+          padding: 5px
+          margin: 10px 0 0 10px
+          background: #e0c628
+          border: 1px dashed rgba(0, 0, 0, 0.36)
+      img
+        max-width: 335px
+        width: 100%
+        margin: 50px 0 0 0
+  footer
+    >.container
+      background-color: #28afb7
+      >.row
+        .online
+          margin: 10px 10px 0 0
+          display: inline-block
+          background-color: #4E729A
+          width: 50px
+          height: 50px
+          transform: rotate(-45deg)
+          border: 5px solid #28afb7
+          +border-radius(8px)
+          transition: 1s
+          >i
+            padding: 7px 10px 8px 5px
+            font-size: 25px
+            transform: rotate(45deg)
+            color: black
+        .twitter
+          i
+            padding: 7px 10px 8px 10px
+        .online:hover
+          border: 5px solid #4E729A
+
+
+

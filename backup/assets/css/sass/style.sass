@@ -1,0 +1,57 @@
+@import "compass/css3"
+=background ($img:file, $type:png, $repeat:no-repeat, $x:0, $y:0)
+  background-image: url(../img/#{$img}.#{$type})
+  background-repeat: #{$repeat}
+  background-position: #{$x}px #{$y}px
+
+.wrapper
+  header
+    .navbar-collapse
+      .navbar-right
+        li>a:hover
+          background-color: grey
+  .main
+    >.formMessage
+      position: fixed
+      right: 0
+      padding: 70px 5px 5px 5px
+      background-color: #f7f7f7
+      width: 100%
+      max-width: 400px
+      z-index: 999
+      >button
+        margin: 5px
+      & [required]
+        width: 100%
+        border: 1px solid lightskyblue
+        +border-radius(10px)
+    .bxslider
+      padding-top: 50px
+      >li
+        width: 100%
+        img
+          height: 400px
+    .education
+      >ul
+        float: left
+      >img
+        float: right
+    .skills
+      background-color: #28afb7
+      .skills_list
+        margin: 50px 0 0 0
+        cursor: default
+        li
+          font-size: 20px
+          padding: 5px
+          margin: 10px 0 0 10px
+          background: #e0c628
+          border: 1px dashed rgba(0, 0, 0, 0.36)
+      img
+        max-width: 335px
+        width: 100%
+        margin: 50px 0 0 0
+  footer
+    >.container
+      background-color: #28afb7
+

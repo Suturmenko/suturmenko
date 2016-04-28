@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Suturmenko</title>
+    <link rel="stylesheet" href="assets/include/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/include/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="assets/include/font-awesome-4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <a href="#" id="top"></a>
+    <header>
+        <nav  class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#top" class="navbar-brand scroll">Suturmeko</a>
+            </div>
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#education" class="scroll">Образование</a></li>
+                    <li><a href="#skills" class="scroll">Навыки</a></li>
+                    <li ><a href="#aboutme" class="scroll">Обо мне</a></li>
+                    <li ><a href="#portfolio" class="scroll">Портфолио</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" class="mail"><i class="fa fa-envelope"></i>Написать</a></li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+<div class="main">
+    <form id="formMessage" style="display: none;">
+        <fieldset class="form-group">
+            <label for="formGroupExampleInput">Как к вам обращаться</label>
+            <input name="name" type="text" class="form-control"  id="formGroupExampleInput" required placeholder="Имя Фамилия Отчество">
+        </fieldset>
+        <fieldset class="form-group">
+            <label for="formGroupExampleInput2">Ваш Email:</label>
+            <input name="email" type="text" class="form-control" id="formGroupExampleInput2"  required placeholder="Адрес электроной почты">
+        </fieldset>
+        <fieldset class="form-group-sm">
+            <textarea name="mess" required rows="5"></textarea>
+        </fieldset>
+        <button id='mesbut' type="submit" class="btn btn-primary">Написать</button>
+        <span id='result'  style="display: none"></span>
+<!--        -->
+    </form>
+
+    <div class="container w7">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <ul class="bxslider">
+                    <li><img src="assets/img/123.jpg" alt=""></li>
+                    <li><img src="assets/img/pic1.jpg" alt=""></li>
+                    <li><img src="assets/img/pic2.jpg" alt=""></li>
+                    <li><img src="assets/img/pic3.jpg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="text-center">
+                    <i class="fa fa-graduation-cap fa-5x"></i>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 education" id="education">
+                <ul class="list-unstyled">
+                    <li><strong>образование</strong></li>
+                    <li><strong>образование</strong></li>
+                    <li><strong>образование</strong></li>
+                    <li><strong>образование</strong></li>
+                    <li><strong>образование</strong></li>
+                    <li><strong>образование</strong></li>
+                    <li><strong>образование</strong></li>
+                    <li><strong>образование</strong></li>
+                    <li><strong>образование</strong></li>
+                    <li><strong>образование</strong></li>
+                    <li><strong>образование</strong></li>
+                    <li><strong>образование</strong></li>
+                    <li><strong>образование</strong></li>
+                </ul>
+                <img src="assets/img/education_background.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 skills" id="skills">
+                <div class="text-center">
+                    <i class="fa fa-universal-access fa-5x"></i>
+                </div>
+                <div id="skills_progress">
+                    <div class="hd" id="html">
+                        <div class="text-center">
+                            <i class="fa fa-html5 fa-2x"></i>
+                            <strong>Html - 95%</strong>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-success active" style="width: 95%">
+                                <span class="sr-only">35% Complete (success)</span>
+                            </div>
+                            <div class="progress-bar progress-bar-danger" style="width: 5%">
+                                <span class="sr-only">10% Complete (danger)</span>
+                            </div>
+                        </div>
+                    </div><!--html-->
+                    <div class="hd" id="css">
+                        <div class="text-center">
+                            <i class="fa fa-css3 fa-2x"></i>
+                            <strong>CSS - 95%</strong>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-success active" style="width: 95%">
+                                <span class="sr-only">35% Complete (success)</span>
+                            </div>
+                            <div class="progress-bar progress-bar-danger" style="width: 5%">
+                                <span class="sr-only">10% Complete (danger)</span>
+                            </div>
+                        </div>
+                    </div><!--css-->
+                    <div class="hd" id="bootstrap">
+                        <div class="text-center">
+                            <i class="fa fa-code fa-2x"></i>
+                            <strong>bootstrap - 95%</strong>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-success active" style="width: 95%">
+                                <span class="sr-only">35% Complete (success)</span>
+                            </div>
+                            <div class="progress-bar progress-bar-danger" style="width: 5%">
+                                <span class="sr-only">10% Complete (danger)</span>
+                            </div>
+                        </div>
+                    </div><!--bootstrap-->
+                    <div class="hd" id="grid">
+                        <div class="text-center">
+                            <i class="fa fa-code-fork fa-2x"></i>
+                            <strong>grid - 95%</strong>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-success active" style="width: 95%">
+                                <span class="sr-only">35% Complete (success)</span>
+                            </div>
+                            <div class="progress-bar progress-bar-danger" style="width: 5%">
+                                <span class="sr-only">10% Complete (danger)</span>
+                            </div>
+                        </div>
+                    </div><!--grid-->
+                    <div class="hd" id="js">
+                        <div class="text-center">
+                            <i class="fa fa-edit fa-2x"></i>
+                            <strong>JavaScript - 95%</strong>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-success active" style="width: 95%">
+                                <span class="sr-only">35% Complete (success)</span>
+                            </div>
+                            <div class="progress-bar progress-bar-danger" style="width: 5%">
+                                <span class="sr-only">10% Complete (danger)</span>
+                            </div>
+                        </div>
+                    </div><!--js-->
+                    <div class="hd" id="jq">
+                        <div class="text-center">
+                            <i class="fa fa-jsfiddle fa-2x "></i>
+                            <strong>Jquery - 95%</strong>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-success active" style="width: 95%">
+                                <span class="sr-only">35% Complete (success)</span>
+                            </div>
+                            <div class="progress-bar progress-bar-danger" style="width: 5%">
+                                <span class="sr-only">10% Complete (danger)</span>
+                            </div>
+                        </div>
+                    </div><!--jq-->
+                    <div class="hd" id="sass">
+                        <div class="text-center">
+                            <i class="fa fa-scribd fa-2x"></i>
+                            <strong>sass - 95%</strong>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-success active" style="width: 95%">
+                                <span class="sr-only">35% Complete (success)</span>
+                            </div>
+                            <div class="progress-bar progress-bar-danger" style="width: 5%">
+                                <span class="sr-only">10% Complete (danger)</span>
+                            </div>
+                        </div>
+                    </div><!--sass-->
+                </div><!--skills_progress-->
+                <ul class="list-unstyled list-inline text-center skills_list">
+                    <li class="skil"><strong>Навыки:</strong></li>
+                    <li class="html">Html</li>
+                    <li class="html">Html5</li>
+                    <li class="css">Css</li>
+                    <li class="css">Css3</li>
+                    <li class="bootstrap">bootstrap</li>
+                    <li class="grid">grid</li>
+                    <li class="js">js</li>
+                    <li class="jq">jq</li>
+                    <li class="sass">Sass</li>
+                </ul>
+                <div class="text-center">
+                    <img src="assets/img/skills_back.png" alt="" >
+                </div>
+            </div>
+        </div>
+        <div class="row" id="aboutme">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="text-center">
+                    <i class="fa fa-universal-access fa-5x"></i>
+                </div>
+                <h3><strong>Обо мне</strong></h3>
+                <ul >
+                    <li>20 лет</li>
+                    <li>Не женат</li>
+                    <li>Готов к редким командировкам</li>
+                    <li>Люблю работу в команде</li>
+                    <li>Стрессоустойчив, хорошо обучаем</li>
+                    <li>Умею начинать дела и доводить их до успешного завершения</li>
+                </ul>
+                <p>Желаю получить опыт работы для дальнейшего развития, поэтому не гонюсь за высокой заработной платой.</p>
+                <p>Обещаю быть ответственным и порядочным сотрудником :)</p>
+            </div>
+        </div>
+    </div>
+</div><!--main-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm 6 col-xs-12">
+                    <a href="https://vk.com/dr.jekyllwins" class="online">
+                        <i class="fa fa-vk fa-x2"></i>
+                    </a>
+                    <a href="https://twitter.com/DrJekyllWins" class="online twitter">
+                        <i class="fa fa-twitter fa-x2"></i>
+                    </a>
+                    <a href="https://www.instagram.com/drjekyllwins/" class="online twitter">
+                        <i class="fa fa-instagram fa-x2"></i>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm 6 col-xs-12">
+                    <ul class="list-unstyled text-right">
+                        <li><i class="fa fa-map-marker fa-2x"></i><strong>Контакты:</strong></li>
+                        <li>
+                            <i class="fa fa-info-circle"></i>
+                            <span>г. Одесса</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-phone"></i>
+                            <span>+380637261745</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-skype"></i>
+                            <span>drjekyllwins</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope"></i>
+                            <span>suturmenkosashsa1996@gmail.com</span>
+                        </li>
+
+                    </ul>
+                </div>
+        </div>
+    </div>
+
+
+
+
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="assets/include/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/include/bxslider/jquery.bxslider.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </footer>
+</div><!--wrapper-->
+</body>
+
+</html>

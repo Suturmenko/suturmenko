@@ -1,0 +1,14 @@
+.wrapper header .navbar-collapse .navbar-right li > a:hover { background-color: grey; }
+.wrapper .main > .formMessage { position: fixed; right: 0; padding: 70px 5px 5px 5px; background-color: #f7f7f7; width: 100%; max-width: 400px; z-index: 999; }
+.wrapper .main > .formMessage > button { margin: 5px; }
+.wrapper .main > .formMessage [required] { width: 100%; border: 1px solid lightskyblue; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; }
+.wrapper .main .bxslider { padding-top: 50px; }
+.wrapper .main .bxslider > li { width: 100%; }
+.wrapper .main .bxslider > li img { height: 400px; }
+.wrapper .main .education > ul { float: left; }
+.wrapper .main .education > img { float: right; }
+.wrapper .main .skills { background-color: #28afb7; }
+.wrapper .main .skills .skills_list { margin: 50px 0 0 0; cursor: default; }
+.wrapper .main .skills .skills_list li { font-size: 20px; padding: 5px; margin: 10px 0 0 10px; background: #e0c628; border: 1px dashed rgba(0, 0, 0, 0.36); }
+.wrapper .main .skills img { max-width: 335px; width: 100%; margin: 50px 0 0 0; }
+.wrapper footer > .container { background-color: #28afb7; }
