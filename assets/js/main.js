@@ -43,6 +43,7 @@ $(document).ready(function () {
     $('.js').on('click',function () {$('#js').slideToggle();});
     $('.jq').on('click',function () {$('#jq').slideToggle();});
     $('.sass').on('click',function () {$('#sass').slideToggle();});
+    $('.git').on('click',function () {$('#git').slideToggle();});
     $('.skil').on('click',function () {
         $('#html').slideToggle();
         $('#css').slideToggle();
@@ -51,6 +52,7 @@ $(document).ready(function () {
         $('#js').slideToggle();
         $('#jq').slideToggle();
         $('#sass').slideToggle();
+        $('#git').slideToggle();
     });
 
 
